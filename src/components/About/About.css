@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap");
+#about {
+    font-family: "Roboto", sans-serif;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.about_heading {
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+    color: hsl(317, 100%, 21%);
+}

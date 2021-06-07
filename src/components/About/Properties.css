@@ -1,0 +1,57 @@
+.property_block {
+    margin: 3rem;
+    text-align: center;
+}
+
+.bg_shape {
+    width: 100px;
+    height: 100px;
+    background: hsl(300, 100%, 70%);
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.bg_shape::before {
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid hsl(300, 100%, 70%);
+    border-left: 29px solid white;
+    border-right: 29px solid white;
+    z-index: -1;
+}
+
+.bg_shape::after {
+    content: "";
+    width: 100px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid hsl(300, 100%, 70%);
+    border-left: 29px solid white;
+    border-right: 29px solid white;
+    z-index: -1;
+}
+
+.icon_block {
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.property_title {
+    margin-top: 1.6rem;
+    font-weight: bolder;
+}
+
+.property_card {
+    width: 15rem;
+    text-align: center;
+    display: inline-block;
+}

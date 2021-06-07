@@ -1,0 +1,60 @@
+#contact {
+    font-family: "Roboto", sans-serif;
+    margin-top: 3rem;
+    background: hsl(317, 100%, 20%);
+    color: hsl(317, 80%, 80%);
+    display: block;
+}
+
+.contact_heading {
+    text-align: center;
+    text-decoration: underline;
+    padding: 3.5rem 0;
+    font-weight: bolder;
+}
+
+.contact_form {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: auto;
+    padding-bottom: 3rem;
+}
+
+.contact_form textarea {
+    resize: none;
+}
+
+.contact_form textarea,
+input {
+    border-radius: 5px;
+    background: hsl(300, 80%, 91%);
+    border-style: none;
+}
+
+.contact_form button {
+    border-style: none;
+    border-radius: 5px;
+    background: hsl(298, 96%, 37%);
+    font-weight: bolder;
+    padding: 10px;
+    display: inline-block;
+    color: aliceblue;
+    letter-spacing: 1.6px;
+}
+
+.contact_footer {
+    padding: 0.1rem 0;
+    text-align: center;
+}
+
+.contact_social {
+    font-size: 2.5rem;
+}
+
+.contact_social i {
+    margin: 0 1rem;
+    cursor: pointer;
+}
