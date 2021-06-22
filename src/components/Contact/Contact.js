@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div id="contact">
             <div className="container">
-                <h1 className="contact_heading">{"Contact"}</h1>
+                <h1 className="contact_heading">{"CONTACT"}</h1>
                 <div style={{ textAlign: "center", padding: "0 0 2rem 0" }}>{"Have a question or want to work together?"}</div>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <div className="contact_form">

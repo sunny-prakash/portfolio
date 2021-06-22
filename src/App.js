@@ -5,6 +5,7 @@ import Entrypage from "./components/Entrypage/Entrypage";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
 
 class App extends Component {
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
                 <Entrypage />
                 <Navbar />
                 <About />
+                <Projects />
                 <Contact />
             </React.Fragment>
         );

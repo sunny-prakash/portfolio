@@ -1,0 +1,17 @@
+#introduction {
+    padding: 2rem;
+    text-align: center;
+}
+
+.profileImg {
+    background-image: url("./profilepic.jpg");
+    width: 197px;
+    height: 197px;
+    border-radius: 50%;
+}
+
+.profile_box {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px hsl(278, 100%, 50%);
+}

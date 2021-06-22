@@ -1,0 +1,9 @@
+#projects {
+    padding: 3rem;
+}
+
+#projects>h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0;
+}

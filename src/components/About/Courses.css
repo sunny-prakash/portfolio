@@ -1,0 +1,8 @@
+#courses {
+    padding: 1rem;
+}
+
+.label {
+    margin: 20px 0 0 0;
+    color: hsl(278, 100%, 50%);
+}

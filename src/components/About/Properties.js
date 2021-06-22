@@ -4,7 +4,7 @@ import "./Properties.css";
 const Properties = () => {
     return (
         <div className="property_block">
-            <div classname="row row-cols-4 row-cols-md-2 g-4">
+            <div classname="row row-cols-2 row-cols-lg-4 g-4">
                 <div className="col" style={{ display: "inline-block", margin: ".5rem" }}>
                     <div className="property_card">
                         <div className="bg_shape">
