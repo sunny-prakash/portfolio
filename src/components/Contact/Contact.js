@@ -17,11 +17,18 @@ const Contact = () => {
                 </div>
                 <div className="contact_footer">
                     <div className="contact_social">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-instagram-square"></i>
-                        <i class="fab fa-codepen"></i>
-                        <i class="fab fa-github-square"></i>
+                        <a href="https://www.linkedin.com/in/sunny-pprakash" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a href="https://codepen.io/sunnyprakash62" target="_blank">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                        <a href="https://github.com/sunny-prakash" target="_blank">
+                            <i class="fab fa-github-square"></i>
+                        </a>
                     </div>
                     <div>
                         <p>

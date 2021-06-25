@@ -44,6 +44,10 @@
     border-radius: 10px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .view_btn a:link,
 a:visited {
     text-decoration: inherit;
@@ -58,4 +62,22 @@ a:visited {
 
 .entry_main {
     position: relative;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
 }

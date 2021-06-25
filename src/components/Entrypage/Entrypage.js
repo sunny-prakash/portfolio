@@ -3,7 +3,7 @@ import "./Entrypage.css";
 
 const Entrypage = () => {
     return (
-        <div>
+        <div id="home">
             <div className="entry_main">
                 <div className="bg_entry"></div>
                 <div className="bg_img"></div>
@@ -13,9 +13,11 @@ const Entrypage = () => {
                         <span className="name">{"Sunny Prakash"}</span>
                     </h1>
                     <h2>{"I'm a full-stack web developer"}</h2>
-                    <div className="mt-5 view_btn" dest="about">
-                        {"View my work"}
-                    </div>
+                    <a href="#about">
+                        <div className="mt-5 view_btn" dest="about">
+                            {"View my work"}
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
